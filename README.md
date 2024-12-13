@@ -37,4 +37,4 @@ Dieses Projekt erweitert das Huge Framework um folgende Funktionen:
 ## Installation
 1. Klone dieses Repository:
    ```bash
-   git clone https://github.com/dein-benutzername/HUGE-Framework-Ue7.git
+   git clone https://github.com/dino-2602/HUGE-Framework-Ue7.git
