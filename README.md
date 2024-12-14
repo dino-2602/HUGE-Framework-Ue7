@@ -34,6 +34,10 @@ Dieses Projekt erweitert das Huge Framework um folgende Funktionen:
    - Einbindung von jQuery und DataTables für eine interaktive Benutzerliste.
    - Erstellung von Admin-Ansichten zur Verwaltung von Benutzern und deren Gruppenzuweisungen.
 
+## Screenshots
+
+
+
 ## Installation
 1. Klone dieses Repository:
    ```bash
