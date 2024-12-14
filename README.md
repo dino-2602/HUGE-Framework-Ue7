@@ -36,8 +36,21 @@ Dieses Projekt erweitert das Huge Framework um folgende Funktionen:
 
 ## Screenshots
 
+ **Datenbankstruktur: Benutzergruppen**
 
+![Datenbankstruktur](https://github.com/dino-2602/HUGE-Framework-Ue7/blob/main/sceenshots/db_groups.png)
+- Die Datenbanktabelle user_groups definiert die verfügbaren Benutzergruppen. Jede Gruppe hat eine eindeutige group_id und einen Namen (group_name). Diese Tabelle wird verwendet, um Benutzer mit spezifischen Gruppenrollen zu verknüpfen.
 
+**Benutzerübersicht und Dropdown-Menü zur Gruppenzuweisung**
+
+![Benutzerübersicht und Dropdown-Menü zur Gruppenzuweisung](https://github.com/dino-2602/HUGE-Framework-Ue7/blob/main/sceenshots/admin_procon.png)
+- Die Benutzerübersicht zeigt eine Liste aller Benutzer im System, einschließlich ihrer ID, Avatar, E-Mail-Adresse und zugewiesenen Gruppenrollen. Das Dropdown-Menü erlaubt es Administratoren, Benutzer zu einer der definierten Gruppen (Admin, Gast, Normaler Benutzer) zuzuweisen. Änderungen können mit dem "Submit"-Button gespeichert werden.
+
+**HTML-Code des Dropdown-Menüs**
+
+![HTML-Code des Dropdown-Menüs](https://github.com/dino-2602/HUGE-Framework-Ue7/blob/main/sceenshots/userrole_dropdown.png)
+- Das Dropdown-Menü wird dynamisch mit PHP generiert. Die aktuelle Benutzergruppe wird basierend auf der group_id vorausgewählt. Hier ist ein Ausschnitt aus dem Code, der das Dropdown-Menü erstellt und die Gruppenoptionen dynamisch aus der Datenbank lädt.
+ 
 ## Installation
 1. Klone dieses Repository:
    ```bash
